@@ -1,4 +1,4 @@
-# solana-environment-archlinux-install
+# Solana Environment Archlinux Install
  Installer of dependencies for Solana desolsolution environment on Archlinux and derivatives 
 
 How to use:
