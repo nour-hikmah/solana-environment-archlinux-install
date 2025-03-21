@@ -13,3 +13,15 @@ cd solana-environment-archlinux-install
 chmod +x install.sh
 ./install.sh
 ```
+
+In the bash terminal
+```sh
+echo 'export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+```
+
+In the zsh terminal
+```sh
+echo 'export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+```
