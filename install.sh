@@ -126,7 +126,6 @@ print_versions() {
     echo "Node.js: $(node --version 2>/dev/null || echo 'Not installed')"
     echo "Yarn: $(yarn --version 2>/dev/null || echo 'Not installed')"
     echo ""
-    export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
 }
 
 ########################################
